@@ -1,18 +1,35 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <HeaderBakulPanen />
+    <HeroBakulPanen />
+    <WomanBakulPanen />
+    <InstaBakulPanen />
+    <PartnerBakulPanen />
+    <FooterBakulPanen />
+   
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+// import HelloWorld from '@/components/HelloWorld.vue'
+import HeaderBakulPanen from '@/components/HeaderBakulPanen.vue'
+import HeroBakulPanen from '@/components/HeroBakulPanen.vue'
+import WomanBakulPanen from '@/components/WomanBakulPanen.vue'
+import InstaBakulPanen from '@/components/InstaBakulPanen.vue'
+import PartnerBakulPanen from '@/components/PartnerBakulPanen.vue'
+import FooterBakulPanen from '@/components/FooterBakulPanen.vue'
+
 
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    HeaderBakulPanen,
+    HeroBakulPanen,
+    WomanBakulPanen,
+    InstaBakulPanen,
+    PartnerBakulPanen,
+    FooterBakulPanen
   }
 }
 </script>
